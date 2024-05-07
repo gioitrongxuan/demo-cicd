@@ -1,3 +1,4 @@
+# luoofn
 name: Build, Push, Ssh, Pull, Down, Up
 
 on:
@@ -32,7 +33,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: bsignbkc/express-sample-project:staging
+          tags: gioitrongxuan/cicd2024:staging
 
 
   pull-and-up:
